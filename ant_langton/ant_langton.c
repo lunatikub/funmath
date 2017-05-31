@@ -12,7 +12,7 @@
  * configuration
  */
 #define __SZ (2)
-static ant_trans_t *cfg = cfg_1;
+static ant_trans_t *cfg = cfg_3;
 
 static const int width  = 1024;
 static const int height = 1024;

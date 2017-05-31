@@ -19,5 +19,6 @@ Uint32 get_pixel(SDL_Surface *surface, int x, int y);
 void draw_circle(SDL_Surface *surface, int n_cx, int n_cy, int radius, Uint32 pixel);
 void draw_line(SDL_Surface *screen, int x0, int y0, int x1, int y1, Uint32 pixel);
 void draw_rec(SDL_Surface *screen, int x0, int y0, int x1, int y1, Uint32 pixel);
+void draw_circle(SDL_Surface *surface, int n_cx, int n_cy, int radius, Uint32 pixel);
 
 #endif /* !SDL_COMMON_H_ */
